@@ -4,9 +4,9 @@
 
 
 
-# Temperature Monitoring System Using DS18B20 and LCD1602 with STM32
+# Temperature Monitoring System Using DS18B20 and LCD2004 with STM32
 
-This project demonstrates a temperature monitoring system based on an STM32 microcontroller, using a DS18B20 digital temperature sensor and an LCD1602 display. The system allows real-time temperature monitoring, threshold configuration, and audible alerting.
+This project demonstrates a temperature monitoring system based on an STM32 microcontroller, using a DS18B20 digital temperature sensor and an LCD2004 display. The system allows real-time temperature monitoring, threshold configuration, and audible alerting.
 
 ---
 
@@ -24,14 +24,14 @@ This project demonstrates a temperature monitoring system based on an STM32 micr
 
 ## 📝 Introduction
 
-The goal of this project is to measure ambient temperature using the DS18B20 sensor and display the result on an LCD1602 screen. The system includes a simple menu for configuration and provides a sound alert when the temperature exceeds a user-defined threshold.
+The goal of this project is to measure ambient temperature using the DS18B20 sensor and display the result on an LCD2004 screen. The system includes a simple menu for configuration and provides a sound alert when the temperature exceeds a user-defined threshold.
 
 ---
 
 ## 🌟 Features
 
 - **Temperature Measurement**: Reads temperature data from the DS18B20 sensor (OneWire protocol).
-- **LCD Display**: Displays current temperature and system status on an LCD1602.
+- **LCD Display**: Displays current temperature and system status on an LCD2004.
 - **Threshold Configuration**: Adjustable temperature limit using buttons.
 - **Audible Alert**: Activates a buzzer when the temperature exceeds the set threshold.
 - **Non-Volatile Storage:**: Saves threshold settings in Flash/EEPROM.
@@ -43,7 +43,7 @@ The goal of this project is to measure ambient temperature using the DS18B20 sen
 
 - STM32 Microcontroller (e.g. STM32F1)
 - DS18B20 Digital Temperature Sensor
-- LCD1602 (I2C interface)
+- LCD2004 (I2C interface)
 - Push Buttons
 - Buzzer
 - Potentiometer
@@ -57,7 +57,7 @@ The project is developed using STM32CubeIDE and HAL libraries.
 1. DS18B20 Driver:
    - Communicates via OneWire protocol.
    - Converts raw sensor data to temperature in Celsius.
-2. LCD1602 Driver:
+2. LCD2004 Driver:
    - Uses I2C interface for communication.
    - Displays temperature values and menu options.
 3. Menu System:
