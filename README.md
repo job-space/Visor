@@ -1,5 +1,5 @@
 ![Alt text](images/stm.jpg)
-<img src="images/stm32.jpg" alt="Alt text" width="400" />
+<img src="images/stm32.png" alt="Alt text" width="400" />
 <img src="images/visor.jpg" alt="Alt text" width="400" />
 
 
