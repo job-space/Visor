@@ -2,6 +2,12 @@
 <img src="images/visor_2.jpg" alt="Alt text" width="400" />
 <img src="images/stm32.png" alt="Alt text" width="400" />
 
+## Demo
+
+Click the link below to watch the project in action:
+
+👉 https://github.com/job-space/Visor/raw/main/videos/demo.mp4
+
 
 # Temperature Monitoring System Using DS18B20 and LCD2004 with STM32
 
