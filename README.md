@@ -1,7 +1,6 @@
-![Alt text](images/stm.jpg)
+<img src="images/visor_1.jpg" alt="Alt text" width="400" />
+<img src="images/visor_2.jpg" alt="Alt text" width="400" />
 <img src="images/stm32.png" alt="Alt text" width="400" />
-<img src="images/visor.jpg" alt="Alt text" width="400" />
-
 
 
 # Temperature Monitoring System Using DS18B20 and LCD2004 with STM32
